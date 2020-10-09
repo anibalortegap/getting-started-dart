@@ -100,7 +100,7 @@ main(List<String> args) {
   for (int i = 0; i <= 3; i++) {
     for (int j = 0; j <= 3; j++) {
       print('$i $j');
-      if (i == 2 && j == 0) continue forExterno;
+      if (i == 2 && j == 0) continue forExterno; 
     }
   }
 }
