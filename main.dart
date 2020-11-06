@@ -12,7 +12,7 @@ main() {
   print('Mi nombre es $valString' + ' Me gusta mucho jugar futbol');
   print('''Mi nombre es......
 
-  
+
   Anibal!!
   ''');
   // Type r handler special caracter
@@ -49,7 +49,6 @@ main() {
   /* Functions */
   int fibonacci(int n){
     if(n == 0 || n == 1) return n;
-    
     return fibonacci(n - 1) + fibonacci(n - 2);
   }
 
